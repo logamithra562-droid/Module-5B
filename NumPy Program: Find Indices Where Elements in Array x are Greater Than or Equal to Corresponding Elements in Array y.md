@@ -14,8 +14,16 @@ To write a Python program using **NumPy** that finds the indices where elements 
 
 ## 🧾 Program
 
-Add code here
+import numpy as np 
+x=eval(input()) 
+y=eval(input()) 
+l1=np.array(x) 
+l2=np.array(y) 
+print(np.where(l1>l2)) 
+print(np.where(l1==l2))
 
 ## Output
+<img width="727" height="223" alt="image" src="https://github.com/user-attachments/assets/f27aa2df-091e-4282-bf51-381ca78ed016" />
 
 ## Result
+Thus the python program for sorting each column in numpy has been implemented and executed successfully.
